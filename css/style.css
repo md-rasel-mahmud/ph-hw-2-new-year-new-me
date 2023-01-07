@@ -1,0 +1,212 @@
+
+/* Font family import  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap');
+
+/* ======================================== */
+/* Site color:- 
+    Light color: #fff
+    primary color orrange: #F15B22
+    Heading color: #151414
+    Paragraph color: #444343
+*/
+/* ======================================== */
+
+
+
+/* univarsal style  */
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* body style  */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------- common css style start---------------------- */
+.container{
+    width: 75vw;
+    margin: 0 auto;
+}
+
+/* Primary button  */
+.btn-primary{
+    color: #fff;
+    background-color: #F15B22;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    border-color: #F15B22;
+    color: #F15B22;
+    cursor: pointer;
+}
+
+/* secondary button  */
+.btn-secondary{
+    color: #F15B22;
+    background-color: #fff;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: fit-content;
+}
+.btn-secondary:hover{
+    background-color: #F15B22;
+    border-color: #fff;
+    color: #fff;
+    cursor: pointer;
+}
+/* ---------------------- common css style start---------------------- */
+
+
+/* ========================= Header area start ========================= */
+header{
+    background-image: url('../images/banner/banner2.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    min-height: 70vh;
+}
+.header-content h1{
+    width: 40%;
+    font-size: 50px;
+    margin: 10px 0;
+    color: #151414;
+}
+.header-content p{
+    width: 35%;
+    margin-bottom: 25px;
+    color: #444343;
+}
+/* ========================= Header area end ========================= */
+
+
+/* ========================= About area start ========================= */
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    gap: 50px;
+}
+#about > img{
+    height: 450px;
+}
+article{
+    width: 30%;
+    margin-top: 130px;
+}
+article ul{
+    padding: 0;
+}
+article ul li{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin: 5px 0;
+    color: #444343;
+}
+article ul li img{
+    height: 20px;
+}
+/* ========================= About area end ========================= */
+
+/* ========================= Plan area start ========================= */
+#plan{
+    text-align: center;
+
+}
+#plan h2{
+    font-size: 35px;
+    color: #151414;
+}
+#plan .card-list{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px 0;
+}
+
+/* Plan card style */
+.card-list .card img{
+    height: 80px;
+}
+.card-list .card h4{
+    color: #151414;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+.card-list .card p{
+    color: #444343;
+}
+/* ========================= Plan area end ========================= */
+
+/* ========================= Call now area start ========================= */
+#call-now{
+    background-image: linear-gradient(to right, #F15B22, transparent), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: opacity(95%);
+    border-radius: 5px;
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+#call-now h2{
+    color: #fff;
+    font-size: 30px;
+    width: 40%;
+    margin: 0 0 20px 30px;
+}
+#call-now button{
+    margin: 0 30px;
+}
+/* ========================= Call now area end ========================= */
+
+/* ========================= Footer area start ========================= */
+footer{
+    background-color: #151414;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+/* Footer Contact area */
+.contact {
+    width: 50%;
+}
+.contact h2{
+    font-size: 33px;
+}
+
+/* Footer Newsletter area  */
+.newsletter form{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter form input[type="text"]{
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: transparent;
+}
+.social-icon a{
+    margin-right: 10px;
+}
+/* ========================= Footer area end ========================= */
