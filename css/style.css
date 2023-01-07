@@ -68,7 +68,7 @@ body{
 /* ========================= Header area start ========================= */
 header{
     background-image: url('../images/banner/banner2.png');
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -78,7 +78,7 @@ header{
     justify-content: center;
     align-items: flex-end;
     text-align: right;
-    min-height: 70vh;
+    min-height: 90vh;
 }
 .header-content h1{
     width: 40%;
@@ -99,11 +99,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 100vh;
     gap: 50px;
 }
 #about > img{
     height: 450px;
+    margin-top: 30px;
 }
 article{
     width: 30%;
